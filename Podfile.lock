@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (4.7.3)
+  - CollieGallery (0.6.0)
+  - FBLikeLayout (1.2)
+  - ReachabilitySwift (4.1.0)
+  - SDWebImage (4.4.1):
+    - SDWebImage/Core (= 4.4.1)
+  - SDWebImage/Core (4.4.1)
+  - SideMenu (4.0.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.1.0)
+  - ViewAnimator (2.1.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - CollieGallery
+  - FBLikeLayout
+  - ReachabilitySwift (~> 4.0)
+  - SDWebImage
+  - SideMenu
+  - SVProgressHUD
+  - SwiftyJSON
+  - ViewAnimator
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CollieGallery
+    - FBLikeLayout
+    - ReachabilitySwift
+    - SDWebImage
+    - SideMenu
+    - SVProgressHUD
+    - SwiftyJSON
+    - ViewAnimator
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  CollieGallery: b8fcf63af6b31add2f435f5aee4742ae3b84cb3b
+  FBLikeLayout: 687de95c7f29623dc4f7591c9746b99756952607
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+  SideMenu: 70ee5657df63ec3382660ec4ef470bf1cf5db07d
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  ViewAnimator: 20df9a24a076c6ee78b77a4dbf1943808c94954e
+
+PODFILE CHECKSUM: 709f836bc0a90ca7eaa4f58c79c360e48c572427
+
+COCOAPODS: 1.5.3
