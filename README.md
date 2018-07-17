@@ -47,7 +47,12 @@
 ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/security_update.png)
 
 
-- Sandbox tab: As you have created a new client, you will be added there by default. So now you can use the application via Instagram Authentication. If you want other users to use your application then you need to add their Instagram Username and those users need to accept your application invitation by login into Instagram Developer -> Sandbox Invites -> Accept Invitation.
+- Sandbox tab: As you have created a new client, you will be added there by default. So now you can use the application via Instagram Authentication. If you want other users to use your application then you need to add their Instagram Username and those users need to accept your application invitation by login into Instagram Developer -> Sandbox Invites -> Accept Invitation(Refer below screenshots)
+
+![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/accept.png)
+
+
+![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/accepted_invitation.png)
 
 
 - **_Update Constant.swift file in your project_**:
@@ -79,7 +84,7 @@ This application has used other third party libraries available on GitHub as men
 - [SideMenu](https://github.com/jonkykong/SideMenu)
 - [ViewAnimator](https://github.com/marcosgriselli/ViewAnimator)
 
-## Coding Standards Implemented:-
+## Coding Standards Implemented
 
 - MVC Architecture
 - Swift Language(Version: 4.1)
@@ -96,7 +101,9 @@ This application has used other third party libraries available on GitHub as men
 - Managed caching of images for smooth user experience
 - Tried to follow double optional(??) instead of compulsory(!) pattern as and when possible to avoid unnecessary crashes
 
-    
+## How to Contribute?
+
+Have an idea? Found a bug? See [how to contribute](https://github.com/igatsha/PicsCollection/blob/master/Github_data/CONTRIBUTION.md). Every small or large contribution to this project is appreciated.
     
 ## License
 Copyright 2018 Gati Shah
