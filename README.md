@@ -36,12 +36,21 @@
 - Submit required details
 - It will provide details such as **Client ID**, **Client Secret**(Refer below screenshot)
 
+
+![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/create_client.png)
+
+
 - **_Important_**: In Security tab you need to specify Redirect URI, which should be exactly similar which you are going to write in your code and uncheck **Disable implicit OAuth:** checkmark
 - Click on **Update Client**(Refer below screenshot)
 
+
+![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/security_update.png)
+
+
 - Sandbox tab: As you have created a new client, you will be added there by default. So now you can use the application via Instagram Authentication. If you want other users to use your application then you need to add their Instagram Username and those users need to accept your application invitation by login into Instagram Developer -> Sandbox Invites -> Accept Invitation.
 
-- **_Constant.swift_**:
+
+- **_Update Constant.swift file in your project_**:
 ````
 struct InstagramIDs {
     static let kInstaAuthURL = "https://api.instagram.com/oauth/authorize/"
