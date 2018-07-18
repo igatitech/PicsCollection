@@ -60,6 +60,9 @@ class WebViewVC: UIViewController {
     
     /**
      setUpView function is used to setup default values, messages and UI related changes for the current class.
+     
+     - Parameter nil
+     - Returns: nil
      */
     func setUpView() {
         
@@ -72,6 +75,9 @@ class WebViewVC: UIViewController {
     
     /**
      unSignedRequest function is used to authenticate user via Instagram and get access token.
+     
+     - Parameter nil
+     - Returns: nil
     */
     func unSignedRequest () {
         
@@ -83,6 +89,9 @@ class WebViewVC: UIViewController {
     
     /**
      clearCache function is used to clear all the stored sessions and cache memory.
+     
+     - Parameter nil
+     - Returns: nil
     */
     func clearCache() {
         
@@ -96,8 +105,7 @@ class WebViewVC: UIViewController {
      checkRequestForCallbackURL function is used to fetch authentication token from URLRequest
      
      - Parameter request: URLRequest
-     - Returns
-     : nil
+     - Returns: nil
     */
     func checkRequestForCallbackURL(request: URLRequest) {
         
@@ -139,7 +147,6 @@ extension WebViewVC: WKNavigationDelegate {
         
         let urlString = navigationAction.request.url!.absoluteString
         
-        print(urlString)
         guard let range = urlString.range(of: InstagramIDs.kInstaRange) else {
             decisionHandler(.allow)
             if urlString.contains(InstagramIDs.kInstaDenied) {

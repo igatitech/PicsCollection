@@ -48,9 +48,9 @@ class NetworkManager{
      - Returns: Success JSON
      - Returns: Failure Error Code
     */
-    class func request(showloader : Bool,url : EndPoint,method : HTTPMethod,parameters : [String : Any],success:@escaping (JSON) -> Void,failure:@escaping (Int?) -> Void){
+    class func request(viewController : UIViewController,showloader : Bool,url : EndPoint,method : HTTPMethod,parameters : [String : Any],success:@escaping (JSON) -> Void,failure:@escaping (Int?) -> Void){
      
-        if Reachability()?.connection != .none {
+        if Reachability()?.connection == .wifi || Reachability()?.connection == .cellular {
             
             UIApplication.shared.isNetworkActivityIndicatorVisible = true
             
@@ -77,16 +77,19 @@ class NetworkManager{
                             switch statusCode{
                             case accepTableStatusCodes:
                                 let responseObject = JSON(response.result.value as Any)
-//                                guard let _ = responseObject.dictionaryObject else{
-//                                    DELEGATE.window?.rootViewController?.showAlert(strTitle: alerts.error, strMsg: alerts.somethingWrong)
-//                                    failure(response.response?.statusCode)
-//                                    return
-//                                }
                                 success(responseObject)
                                 break
                                 
                             default:
-                                DELEGATE.window?.rootViewController?.showAlert(strTitle: alerts.error, strMsg: alerts.somethingWrong)
+                            
+                                let alertError = UIAlertController.init(title: alerts.error, message: alerts.somethingWrong, preferredStyle: .alert)
+                                let actionOk = UIAlertAction.init(title: alerts.OK, style: .default, handler: { (action) in
+                                   
+                                    resetDefaults()
+                                    viewController.navigationController?.popToRootViewController(animated: true)
+                                })
+                                alertError.addAction(actionOk)
+                                viewController.present(alertError, animated: true, completion: nil)
                                 failure(response.response?.statusCode)
                                 break
                             }
@@ -98,7 +101,7 @@ class NetworkManager{
             }
         }else{
             //display no internet available message
-            DELEGATE.window?.rootViewController?.showAlert(strTitle: alerts.networkError, strMsg: alerts.noInternetMsg)
+            viewController.showAlert(strTitle: alerts.networkError, strMsg: alerts.noInternetMsg)
         }
     }    
 }

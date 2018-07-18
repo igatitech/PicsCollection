@@ -56,12 +56,6 @@
                                     <constraint firstAttribute="height" constant="44" id="ro2-iP-Afu"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Data Available!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYQ-84-Dzs">
-                                <rect key="frame" x="57" y="301" width="207" height="30"/>
-                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="25"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="IDO-Kj-ZGW">
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -139,9 +133,7 @@
                             <constraint firstItem="NiT-j3-AZ1" firstAttribute="trailing" secondItem="qfT-as-BpK" secondAttribute="trailing" id="CbS-ot-hFh"/>
                             <constraint firstItem="NiT-j3-AZ1" firstAttribute="leading" secondItem="qfT-as-BpK" secondAttribute="leading" id="UJk-ZX-Hpp"/>
                             <constraint firstItem="IDO-Kj-ZGW" firstAttribute="bottom" secondItem="qfT-as-BpK" secondAttribute="bottom" id="jtz-Sl-NYq"/>
-                            <constraint firstItem="KYQ-84-Dzs" firstAttribute="centerX" secondItem="IDO-Kj-ZGW" secondAttribute="centerX" id="oSy-w5-nk2"/>
                             <constraint firstItem="IDO-Kj-ZGW" firstAttribute="trailing" secondItem="qfT-as-BpK" secondAttribute="trailing" id="pxg-gh-KJu"/>
-                            <constraint firstItem="KYQ-84-Dzs" firstAttribute="centerY" secondItem="IDO-Kj-ZGW" secondAttribute="centerY" id="sjN-JJ-sLH"/>
                             <constraint firstItem="IDO-Kj-ZGW" firstAttribute="top" secondItem="NiT-j3-AZ1" secondAttribute="bottom" id="wTn-gs-Rqh"/>
                             <constraint firstItem="NiT-j3-AZ1" firstAttribute="top" secondItem="qfT-as-BpK" secondAttribute="top" id="zKD-55-Gze"/>
                         </constraints>
@@ -149,7 +141,6 @@
                     </view>
                     <connections>
                         <outlet property="collectionPics" destination="IDO-Kj-ZGW" id="Oag-wJ-a9d"/>
-                        <outlet property="labelNoData" destination="KYQ-84-Dzs" id="f0h-2S-eYf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ihr-7Q-OVO" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -83,6 +83,9 @@ class AuthenticateVC: UIViewController {
     
     /**
      setUpView function is used to setup default values, messages and UI related changes for the current class.
+     
+     - Parameter nil
+     - Returns: nil
      */
     func setUpView() {
         
@@ -115,6 +118,9 @@ class AuthenticateVC: UIViewController {
     
     /**
      loadIntroScreens function is used to setup Introduction screens.
+     
+     - Parameter nil
+     - Returns: nil
     */
     func loadIntroScreens() {
         
@@ -149,6 +155,9 @@ class AuthenticateVC: UIViewController {
     
     /**
      moveToNextPage function is used to turn on automatic slide through all Introduction screens
+     
+     - Parameter nil
+     - Returns: nil
     */
     @objc func moveToNextPage (){
         
@@ -167,6 +176,9 @@ class AuthenticateVC: UIViewController {
     
     /**
      rotated function is a selector method of orientation observer and it will be called when screen orientation will be changed.
+     
+     - Parameter nil
+     - Returns: nil
     */
     @objc func rotated() {
         
@@ -175,6 +187,9 @@ class AuthenticateVC: UIViewController {
     
     /**
      startTimer function is used to enable autoscrolling in Introductino screens
+     
+     - Parameter nil
+     - Returns: nil
     */
     func startTimer() {
       
@@ -185,6 +200,9 @@ class AuthenticateVC: UIViewController {
     
     /**
      stopTimer function is used to stop timer of autoscrolling Introduction screens
+     
+     - Parameter nil
+     - Returns: nil
     */
     func stopTimer() {
         if timerIntro != nil {

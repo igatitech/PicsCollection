@@ -41,12 +41,30 @@ extension UINavigationController {
     func backToViewController(vc: Any)  {
         // iterate to find the type of vc
     
-        print(viewControllers)
         for element in viewControllers as Array {
             if element.isKind(of: vc as! AnyClass) {
                 self.popToViewController(element, animated: true)
                 break
             }
         }
+    }
+}
+
+extension UICollectionView {
+    
+    func setEmptyMessage(_ message: String) {
+        let messageLabel = UILabel(frame: CGRect(x: 0, y: 0, width: self.bounds.size.width, height: self.bounds.size.height))
+        messageLabel.text = message
+        messageLabel.textColor = .white
+        messageLabel.numberOfLines = 0;
+        messageLabel.textAlignment = .center;
+        messageLabel.font = GetAppFont(FontType: .Bold, FontSize: .BelowBig)
+        messageLabel.sizeToFit()
+        
+        self.backgroundView = messageLabel;
+    }
+    
+    func restore() {
+        self.backgroundView = nil
     }
 }

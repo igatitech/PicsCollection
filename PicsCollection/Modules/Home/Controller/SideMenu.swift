@@ -67,7 +67,7 @@ class SideMenu : UIViewController{
     func logoutAPICall() {
         let alertLogout = UIAlertController.init(title: alerts.title, message: alerts.logout, preferredStyle: .alert)
         let actionYes = UIAlertAction.init(title: alerts.yes, style: .destructive, handler: { (action) in
-            NetworkManager.request(showloader: true, url: .Logout, method: .post, parameters: ["":""], success: { (response) in
+            NetworkManager.request(viewController: self, showloader: true, url: .Logout, method: .post, parameters: ["":""], success: { (response) in
                 isLogout = true
                 resetDefaults()
                 self.dismiss(animated: true, completion: nil)

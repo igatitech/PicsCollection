@@ -11,6 +11,7 @@ import SDWebImage
 import FBLikeLayout
 import CollieGallery
 import ViewAnimator
+import Reachability
 
 /**
  The purpose of the `HomeVC` view controller is to display user's images from their Instagram account.
@@ -24,12 +25,12 @@ class HomeVC: UIViewController {
 
     //MARK:- IBOutlets
     @IBOutlet weak var collectionPics : UICollectionView!
-    @IBOutlet weak var labelNoData : UILabel!
     
     //MARK:- Properties
     private let animations = [AnimationType.from(direction: .bottom, offset: 30.0)]
     var mainData : MainData?
     var pictureData : [UserData]?
+    var refresher : UIRefreshControl!
     
     //MARK:- View Life Cycle
     override func viewDidLoad() {
@@ -86,11 +87,21 @@ class HomeVC: UIViewController {
     
     /**
      setUpView function is used to setup default values, messages and UI related changes for the current class.
+     
+     - Parameter nil
+     - Returns: nil
      */
     func setUpView() {
         
         //...Fetch user picture API call
-        fetchUserPicturesAPICall()
+        fetchUserPicturesAPICall(isShowLoading: true)
+        
+        //...Pull to refresh Control
+        self.refresher = UIRefreshControl()
+        self.collectionPics!.alwaysBounceVertical = true
+        self.refresher.tintColor = UIColor.white
+        self.refresher.addTarget(self, action: #selector(reloadCollectionData), for: .valueChanged)
+        self.collectionPics!.addSubview(refresher)
     }
     
     /**
@@ -129,21 +140,40 @@ class HomeVC: UIViewController {
      - Parameter nil
      - Returns: nil
     */
-    func dataValidation() {
+    func loadCollectionWithAnimations() {
         
-        if pictureData?.count ?? 0 <= 0 {
-            collectionPics.isHidden = true
-            labelNoData.isHidden = false
-        } else {
-            collectionPics.isHidden = false
-            labelNoData.isHidden = true
-        }
         collectionPics.reloadData()
         collectionPics.performBatchUpdates({
             UIView.animate(views: self.collectionPics.orderedVisibleCells,
                            animations: self.animations, completion: {
             })
         }, completion: nil)
+    }
+    
+    /**
+     reloadData function will be called on Pull to Refresh
+     
+     - Parameter nil
+     - Returns: nil
+    */
+    @objc func reloadCollectionData() {
+        
+        if Reachability()?.connection != .wifi && Reachability()?.connection != .cellular {
+                self.stopRefresher()
+        } else {
+            //...Fetch user picture API call
+            fetchUserPicturesAPICall(isShowLoading: false)
+        }
+    }
+    
+    /**
+     stopRefresher function is used to stop refresh control
+     
+     - Parameter nil
+     - Returns: nil
+    */
+    func stopRefresher() {
+        self.refresher.endRefreshing()
     }
     
     //MARK:- API Call
@@ -154,15 +184,16 @@ class HomeVC: UIViewController {
      - Parameter nil
      - Returns: nil
     */
-    func fetchUserPicturesAPICall() {
+    func fetchUserPicturesAPICall(isShowLoading : Bool) {
         
-        NetworkManager.request(showloader: true, url: .Recent(accessToken: getStringFromDefaults(key: .userAuthToken)!), method: .get, parameters: ["":""], success: { (response) in
+        NetworkManager.request(viewController: self, showloader: isShowLoading, url: .Recent(accessToken: getStringFromDefaults(key: .userAuthToken)!), method: .get, parameters: ["":""], success: { (response) in
+            self.stopRefresher()
             if let dict = response.dictionaryObject as NSDictionary? {
                 self.mainData = MainData(dictionary: dict)
                 self.pictureData = self.mainData?.data
             }
             self.saveUserData()
-            self.dataValidation()
+            self.loadCollectionWithAnimations()
         }, failure: {_ in
         })
     }
@@ -175,7 +206,7 @@ class HomeVC: UIViewController {
     */
     func loadMoreData() {
         
-        NetworkManager.request(showloader: true, url: .NextPageData(urlNextPage: self.mainData?.pagination?.next_url ?? ""), method: .get, parameters: ["":""], success: { (response) in
+        NetworkManager.request(viewController: self, showloader: true, url: .NextPageData(urlNextPage: self.mainData?.pagination?.next_url ?? ""), method: .get, parameters: ["":""], success: { (response) in
             
             if let dict = response.dictionaryObject as NSDictionary? {
                 self.mainData = MainData(dictionary: dict)
@@ -183,12 +214,7 @@ class HomeVC: UIViewController {
                     self.pictureData?.append(dict)
                 }
             }
-            self.collectionPics.reloadData()
-            self.collectionPics.performBatchUpdates({
-                UIView.animate(views: self.collectionPics.orderedVisibleCells,
-                               animations: self.animations, completion: {
-                })
-            }, completion: nil)
+            self.loadCollectionWithAnimations()
         }, failure: {_ in
         })
     }
@@ -204,6 +230,11 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollec
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
+        if (pictureData?.count == 0) {
+            collectionPics.setEmptyMessage(StringConstant.noData)
+        } else {
+            collectionPics.restore()
+        }
         return pictureData?.count ?? 0
     }
     

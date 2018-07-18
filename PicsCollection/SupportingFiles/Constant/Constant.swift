@@ -11,6 +11,11 @@ import UIKit
 //MARK:- Properties
 var isLogout = false
 
+//MARK:- String Constants
+
+struct StringConstant {
+    static let noData = "No Data Available!"
+}
 //MARK:- Intro Screen String Constants
 struct StringIntro {
     static let title1 = "Welcome to Pics Collection"
