@@ -42,6 +42,13 @@ class AuthenticateVC: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        
+        //...Intro screen setup
+        loadIntroScreens()
+        
+        //...Add orientation observer
+        NotificationCenter.default.addObserver(self, selector: #selector(rotated), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
+        
         //...Start Timer
         startTimer()
     }
@@ -89,15 +96,9 @@ class AuthenticateVC: UIViewController {
      */
     func setUpView() {
         
-        //...Intro screen setup
-        loadIntroScreens()
-        
         //...Load Gif
         let imageData = try? Data(contentsOf: Bundle.main.url(forResource: StringImages.imgIntro, withExtension: StringImages.imgExt)!)
         imageIntro.image = UIImage.sd_animatedGIF(with: imageData)
-        
-        //...Add orientation observer
-        NotificationCenter.default.addObserver(self, selector: #selector(rotated), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
     }
     
     //MARK:- PageControl Methods

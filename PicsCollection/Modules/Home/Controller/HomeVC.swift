@@ -54,6 +54,10 @@ class HomeVC: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        
+        //...Add orientation observer
+        NotificationCenter.default.addObserver(self, selector: #selector(rotated), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
+        
         //...Navigate to Authentication Screen if Logout
         if isLogout {
             isLogout = false
@@ -131,9 +135,6 @@ class HomeVC: UIViewController {
         self.refresher.tintColor = UIColor.white
         self.refresher.addTarget(self, action: #selector(reloadCollectionData), for: .valueChanged)
         self.collectionPics!.addSubview(refresher)
-        
-        //...Add orientation observer
-        NotificationCenter.default.addObserver(self, selector: #selector(rotated), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
     }
     
     /**
