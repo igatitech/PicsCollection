@@ -1,29 +1,35 @@
 # PicsCollection
 
-**PicsCollection is an application which collects photos from your Instagram account and displays over here. It provides the amazing user experience. PicsCollection supports a slideshow and image viewer that includes double-tap to zoom, animated zooming presentation, interactive transition flick and more…**
+**PicsCollection is an application which collects photos from your Instagram account and displays in this app. It provides the amazing user experience. PicsCollection supports a slideshow and image viewer that includes double-tap to zoom, animated zooming presentation, interactive transition flick and more…**
 
 ## Key Features:
 
 - One time login
-- Variable size image display
+- Pull down to reload the image list
+- Display image list with animation
+- Switch between listview and gridview of images
 - Double tap to zoom
 - Zoom In/Out with animations
 - Display images from Instagram with animations
 - Image share option
 - Swipe left/right for next/previous photos
 - Swipe up/down to close the full-screen imageview
+- Supported Portrait and Landscape mode
 - Logout
 
 ## How to run the project?
 
 - Make sure you have an active internet connect and connected with Physical device or you can use Xcode Simulator too.
-- Open terminal
-  - Go to your project directory by writing below command in terminal
-    ````
-    - cd /your project path(drag your project folder in terminal)
-    - pod install
-    ````
+- download or clone the project
+- Open .xcworkspace file from your project folder
+- Run the project from Xcode
+
     
+## Application Screenshots
+
+![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/WelcomiPhoneP.png) ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/SideMenuiPhoneP.png) ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/SideMenuiPadP.png) ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPhoneP.png) ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPhoneL.png) ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPadL.png) ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPhoneP.png) ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPhoneL.png) ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPadP.png)
+
+
 ## Instagram Authentication Details
 
 > Currently the client registered on Instagram Developer portal is in Sandbox mode, so if you want to Authenticate using your Instagram account then you need to perform certatin steps as mentioned-below.
