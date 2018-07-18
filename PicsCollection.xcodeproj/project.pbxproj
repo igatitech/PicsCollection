@@ -340,18 +340,10 @@
 			isa = PBXGroup;
 			children = (
 				3B1A983520FAE43500FE234A /* Resources */,
-				3B4D823B20F991AB008AE82B /* LocalDB */,
 				3B4D823C20F991AB008AE82B /* Constant */,
 				3B4D823D20F991AB008AE82B /* Global */,
 			);
 			path = SupportingFiles;
-			sourceTree = "<group>";
-		};
-		3B4D823B20F991AB008AE82B /* LocalDB */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LocalDB;
 			sourceTree = "<group>";
 		};
 		3B4D823C20F991AB008AE82B /* Constant */ = {

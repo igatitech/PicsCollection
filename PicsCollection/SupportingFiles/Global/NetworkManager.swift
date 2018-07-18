@@ -57,12 +57,8 @@ class NetworkManager{
             if (showloader) {
                  SVProgressHUD.show()
             }
-          
             let encoding : ParameterEncoding = URLEncoding.default
-            
-            print(parameters)
             print(baseURL + url.rawValue)
-          
                 Alamofire.request(
                     URL(string: baseURL + url.rawValue)!,
                     method: method,
@@ -70,8 +66,6 @@ class NetworkManager{
                     .responseJSON { (response) -> Void in
                         
                         UIApplication.shared.isNetworkActivityIndicatorVisible = false
-                        print(response.response?.statusCode ?? "not found!")
-                        print(response.result.value as Any)
                         if let statusCode = response.response?.statusCode
                         {
                             switch statusCode{

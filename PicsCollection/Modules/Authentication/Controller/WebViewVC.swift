@@ -26,7 +26,6 @@ class WebViewVC: UIViewController {
     // MARK: - Types
     typealias SuccessHandler = (_ accesToken: String) -> Void
 
-    
     // MARK: - Properties
     private var success: SuccessHandler?
     var urlRequest : URLRequest?
@@ -125,7 +124,6 @@ class WebViewVC: UIViewController {
     */
     func handleAuth(authToken: String)  {
         SVProgressHUD.dismiss()
-        print("Instagram authentication token ==", authToken)
         saveStringToDefaults(string: authToken, key: .userAuthToken)
         guard let objHome = GetViewController(StoryBoard: .Home, Identifier: .Home) else {
             return

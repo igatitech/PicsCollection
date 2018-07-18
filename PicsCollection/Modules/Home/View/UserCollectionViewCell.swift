@@ -36,22 +36,33 @@ class UserCollectionViewCell: UICollectionViewCell, CellInterface {
     
     var avatarGridLayoutSize: CGFloat = 0.0
     var initialLabelsLeadingConstraintValue: CGFloat = 0.0
-    var mainData : MainData? {
+    var pictureData : [UserData]? {
         didSet {
             setData()
         }
     }
     var index : Int!
     
+    //MARK:- Set Data
+    
+    /**
+     setData function is used to set data in collection view cell
+     
+     - Parameter nil
+     - Returns: nil
+     */
+    
     func setData() {
-        let url = URL(string: mainData?.data?[index].images?.low_resolution?.url ?? "")
+        let url = URL(string: pictureData?[index].images?.low_resolution?.url ?? "")
         avatarImageView.sd_setImage(with: url, placeholderImage: UIImage(named: StringImages.imgPlaceholder))
-        nameListLabel.text = mainData?.data?[index].user?.full_name
-        nameGridLabel.text = mainData?.data?[index].user?.full_name
-        let userPostsString = ("\(mainData?.data?[index].likes?.count ?? 0)" + " likes • ")
-        let userCommentsString = ("\(mainData?.data?[index].comments?.count ?? 0)" + " comments")
+        nameListLabel.text = pictureData?[index].user?.full_name
+        nameGridLabel.text = pictureData?[index].user?.full_name
+        let userPostsString = ("\(pictureData?[index].likes?.count ?? 0)" + " likes • ")
+        let userCommentsString = ("\(pictureData?[index].comments?.count ?? 0)" + " comments")
         statisticLabel.text = userPostsString + userCommentsString
     }
+    
+    //MARK:- Custom Methods
     
     func setupGridLayoutConstraints(_ transitionProgress: CGFloat, cellWidth: CGFloat) {
         avatarImageViewHeightConstraint.constant = ceil((cellWidth - avatarListLayoutSize) * transitionProgress + avatarListLayoutSize)

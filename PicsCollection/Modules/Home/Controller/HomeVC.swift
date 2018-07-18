@@ -259,7 +259,7 @@ class HomeVC: UIViewController {
     - Parameter nil
      - Returns: nil
     */
-    func loadMoreData() {
+    func loadMoreData(isShowLoading : Bool) {
         
         NetworkManager.request(viewController: self, showloader: true, url: .NextPageData(urlNextPage: self.mainData?.pagination?.next_url ?? ""), method: .get, parameters: ["":""], success: { (response) in
             
@@ -296,10 +296,12 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollec
             cell.setupListLayoutConstraints(1, cellWidth: cell.frame.width)
         }
         cell.index = indexPath.item
-        cell.mainData = mainData
+        cell.pictureData = pictureData
+        
+        //...Load More Data
         if let _ = mainData?.pagination?.next_url {
             if indexPath.item == mainData?.data?.count ?? 0 - 1 {  //numberofitem count
-                loadMoreData()
+                loadMoreData(isShowLoading: true)
             }
         }
         

@@ -46,8 +46,7 @@ struct InstagramIDs {
     static let kInstaClientSecret = "2792d3264b8b41908f8333a987e388fd"
     static let kInstaRedirectURI = "http://localhost"
     static let kInstaAccessToken =  "access_token"
-    static let kInstaScope = "basic"//+public_content"
-    //+follower_list+likes+comments+relationships
+    static let kInstaScope = "basic"
     static let kInstaRange = "#access_token="
     static let kInstaDenied = "=user_denied"
 }
