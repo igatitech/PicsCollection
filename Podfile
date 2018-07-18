@@ -11,7 +11,7 @@ target 'PicsCollection' do
     pod 'SwiftyJSON'
     pod 'ReachabilitySwift', '~> 4.1'
     pod 'SDWebImage'
-    pod 'FBLikeLayout'
+    pod ‘DisplaySwitcher’
     pod 'CollieGallery'
     pod 'SVProgressHUD'
     pod 'SideMenu'

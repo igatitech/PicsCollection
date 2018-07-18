@@ -8,10 +8,14 @@
 
 import UIKit
 import SDWebImage
-import FBLikeLayout
 import CollieGallery
 import ViewAnimator
 import Reachability
+import DisplaySwitcher
+
+private let animationDuration: TimeInterval = 0.3
+private let listLayoutStaticCellHeight: CGFloat = 80
+private let gridLayoutStaticCellHeight: CGFloat = 150
 
 /**
  The purpose of the `HomeVC` view controller is to display user's images from their Instagram account.
@@ -25,12 +29,17 @@ class HomeVC: UIViewController {
 
     //MARK:- IBOutlets
     @IBOutlet weak var collectionPics : UICollectionView!
+    @IBOutlet fileprivate weak var buttonRotation: SwitchLayoutButton!
     
     //MARK:- Properties
     private let animations = [AnimationType.from(direction: .bottom, offset: 30.0)]
     var mainData : MainData?
     var pictureData : [UserData]?
     var refresher : UIRefreshControl!
+    var isTransitionAvailable = true
+    var listLayout = DisplaySwitchLayout(staticCellHeight: listLayoutStaticCellHeight, nextLayoutStaticCellHeight: gridLayoutStaticCellHeight, layoutState: .list)
+    var gridLayout = DisplaySwitchLayout(staticCellHeight: gridLayoutStaticCellHeight, nextLayoutStaticCellHeight: listLayoutStaticCellHeight, layoutState: .grid)
+    var layoutState: LayoutState = .list
     
     //MARK:- View Life Cycle
     override func viewDidLoad() {
@@ -52,21 +61,13 @@ class HomeVC: UIViewController {
         }
     }
     
+    override func viewDidDisappear(_ animated: Bool) {
+        //...Remove observer
+        NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
+    }
+    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        
-        //...Set up dynamic collection cell width/height
-        if !(collectionPics?.collectionViewLayout is FBLikeLayout) {
-            let layout = FBLikeLayout()
-            layout.minimumInteritemSpacing = 4
-            let value = ((collectionPics?.contentInset.left ?? 0.0) + (collectionPics?.contentInset.right ?? 0.0) + 8)
-            layout.singleCellWidth = ((min((collectionPics?.bounds.size.width)!, (collectionPics?.bounds.size.height)!) - value) / 3.0)
-            layout.maxCellSpace = 3
-            layout.forceCellWidthForMinimumInteritemSpacing = true
-            layout.fullImagePercentageOfOccurrency = 50
-            collectionPics?.collectionViewLayout = layout
-            collectionPics?.reloadData()
-        }
     }
     
     //MARK:- IBActions
@@ -83,6 +84,30 @@ class HomeVC: UIViewController {
         self.present(VC1, animated:true, completion: nil)
     }
     
+    /**
+     This click_Rotation will call when user clicks on rotation switch button.
+     It will change screen display layout
+     
+     - Parameter sender: a reference to the button that has been touched
+     - Returns: nil
+     */
+    @IBAction func click_Rotation(_ sender: AnyObject) {
+        if !isTransitionAvailable {
+            return
+        }
+        let transitionManager: TransitionManager
+        if layoutState == .list {
+            layoutState = .grid
+            transitionManager = TransitionManager(duration: animationDuration, collectionView: collectionPics!, destinationLayout: gridLayout, layoutState: layoutState)
+        } else {
+            layoutState = .list
+            transitionManager = TransitionManager(duration: animationDuration, collectionView: collectionPics!, destinationLayout: listLayout, layoutState: layoutState)
+        }
+        transitionManager.startInteractiveTransition()
+        buttonRotation.isSelected = layoutState == .list
+        buttonRotation.animationDuration = animationDuration
+    }
+    
     //MARK:- Custom Methods
     
     /**
@@ -93,6 +118,10 @@ class HomeVC: UIViewController {
      */
     func setUpView() {
         
+        //...CollectionView Setup
+        buttonRotation.isSelected = true
+        setupCollectionView()
+        
         //...Fetch user picture API call
         fetchUserPicturesAPICall(isShowLoading: true)
         
@@ -102,6 +131,31 @@ class HomeVC: UIViewController {
         self.refresher.tintColor = UIColor.white
         self.refresher.addTarget(self, action: #selector(reloadCollectionData), for: .valueChanged)
         self.collectionPics!.addSubview(refresher)
+        
+        //...Add orientation observer
+        NotificationCenter.default.addObserver(self, selector: #selector(rotated), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
+    }
+    
+    /**
+     setupCollectionView function is used to setup collectionview.
+     
+     - Parameter nil
+     - Returns: nil
+     */
+    func setupCollectionView() {
+        collectionPics.collectionViewLayout = listLayout
+        collectionPics.register(UserCollectionViewCell.cellNib, forCellWithReuseIdentifier:UserCollectionViewCell.id)
+    }
+    
+    /**
+     rotated function is a selector method of orientation observer and it will be called when screen orientation will be changed.
+     
+     - Parameter nil
+     - Returns: nil
+     */
+    @objc func rotated() {
+        
+        loadCollectionWithAnimations()
     }
     
     /**
@@ -223,13 +277,7 @@ class HomeVC: UIViewController {
 //MARK:- UICollectionView Datasource and Delegate
 extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
-        
-        return 1
-    }
-    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        
         if (pictureData?.count == 0) {
             collectionPics.setEmptyMessage(StringConstant.noData)
         } else {
@@ -239,27 +287,42 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollec
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
-        let cell = self.collectionPics.dequeueReusableCell(withReuseIdentifier: CellIdentifier.ImageCollection, for: indexPath) as! ImageCollectionCell
-        let url = URL(string: pictureData?[indexPath.item].images?.low_resolution?.url ?? "")
-        cell.setImage(urlImage: url!)
-        cell.setLikesLabel(likesCount: pictureData?[indexPath.item].likes?.count ?? 0)
+
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: UserCollectionViewCell.id, for: indexPath) as! UserCollectionViewCell
+        if layoutState == .grid {
+            cell.setupGridLayoutConstraints(1, cellWidth: cell.frame.width)
+        } else {
+            cell.setupListLayoutConstraints(1, cellWidth: cell.frame.width)
+        }
+        cell.index = indexPath.item
+        cell.mainData = mainData
         if let _ = mainData?.pagination?.next_url {
             if indexPath.item == mainData?.data?.count ?? 0 - 1 {  //numberofitem count
                 loadMoreData()
             }
         }
-        return cell
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        let pixelWidth : Int = pictureData?[indexPath.item].images?.low_resolution?.width ?? 0
-        let pixelHeight : Int = pictureData?[indexPath.item].images?.low_resolution?.height ?? 0
-        return CGSize(width: pixelWidth, height: pixelHeight)
+        return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         self.OpenGallery(withIndex: indexPath.item)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, transitionLayoutForOldLayout fromLayout: UICollectionViewLayout, newLayout toLayout: UICollectionViewLayout) -> UICollectionViewTransitionLayout {
+        let customTransitionLayout = TransitionLayout(currentLayout: fromLayout, nextLayout: toLayout)
+        return customTransitionLayout
+    }
+    
+    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+        isTransitionAvailable = false
+    }
+    
+    func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+        isTransitionAvailable = true
+    }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        view.endEditing(true)
     }
 }
