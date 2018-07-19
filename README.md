@@ -31,7 +31,7 @@
 ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/WelcomiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/SideMenuiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPhoneP.png)
 
 ## iPhone Landscape:
-![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPhoneL.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPhoneL.png)
+![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/WelcomiPhoneL.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/SideMenuiPhoneL.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPhoneL.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPhoneL.png)
 
 
 ## iPad
