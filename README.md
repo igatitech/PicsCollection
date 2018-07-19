@@ -27,8 +27,10 @@
     
 ## Application Screenshots
 
+![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPhoneP.gif)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPhoneL.gif)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPadL.gif)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPadL.gif)
+
 ## iPhone Portrait :
-![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/WelcomiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/SideMenuiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPhoneP.png)
+![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/WelcomeiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/SideMenuiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPhoneP.png)
 
 ## iPhone Landscape:
 ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/WelcomeiPhoneL.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/SideMenuiPhoneL.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPhoneL.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPhoneL.png)
