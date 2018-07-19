@@ -52,7 +52,7 @@ class AppTourVC: UIViewController {
     @IBAction func click_buttonAppTour(_ sender : Any) {
         
         //...Play App Tour Video
-        if let path = Bundle.main.path(forResource: "100552121210", ofType: "mp4") {
+        if let path = Bundle.main.path(forResource: StringVideo.vdApp, ofType: StringVideo.vdExt) {
             let video = AVPlayer(url: URL(fileURLWithPath: path))
             let videoPlayer = AVPlayerViewController()
             videoPlayer.player = video

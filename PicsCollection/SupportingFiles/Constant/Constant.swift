@@ -34,6 +34,10 @@ struct StringImages {
     static let imgAppTour = "apptour"
 }
 
+struct StringVideo {
+    static let vdApp = "App"
+    static let vdExt = "mp4"
+}
 struct StringSideMenu {
     static let logout = "Logout"
     static let appTour = "App Tour"
