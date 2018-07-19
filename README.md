@@ -27,9 +27,13 @@
     
 ## Application Screenshots
 
-![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPhoneP.gif)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPhoneL.gif)
+|Portrait (iPhone 6)|Landscape (iPhone 6)|
+|:---:|:---:|
+|![iPhoneP.gif](/Github_data/iPhoneP.gif)|![iPhoneL.gif](/Github_data/iPhoneL.gif)|
 
-![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPadP.gif)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPadL.gif)
+|Portrait (iPad Air)|Landscape (iPad Air)|
+|:---:|:---:|
+|![iPadP.gif](/Github_data/iPadP.gif)|![iPadL.gif](/Github_data/iPadL.gif)|
 
 ## iPhone Portrait :
 ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/WelcomeiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/SideMenuiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPhoneP.png)
