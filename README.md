@@ -5,9 +5,9 @@
 ## Key Features:
 
 - One time login
-- Pull down to reload the image list
+- Pull down to reload the image list with animation
 - Display image list with animation
-- Switch between listview and gridview of images
+- Switch between list view and grid view of images with animation
 - Double tap to zoom
 - Zoom In/Out with animations
 - Display images from Instagram with animations
@@ -19,7 +19,7 @@
 
 ## How to run the project?
 
-- Make sure you have an active internet connect and connected with Physical device or you can use Xcode Simulator too.
+- Make sure you have an active internet connection and connected with a Physical device or you can use Xcode Simulator too.
 - download or clone the project
 - Open .xcworkspace file from your project folder
 - Run the project from Xcode
@@ -27,7 +27,9 @@
     
 ## Application Screenshots
 
-![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPhoneP.gif)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPhoneL.gif)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPadL.gif)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPadL.gif)
+![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPhoneP.gif)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPhoneL.gif)
+
+![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPadP.gif)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPadL.gif)
 
 ## iPhone Portrait :
 ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/WelcomeiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/SideMenuiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPhoneP.png)
@@ -42,13 +44,13 @@
 
 ## Instagram Authentication Details
 
-> Currently the client registered on Instagram Developer portal is in Sandbox mode, so if you want to Authenticate using your Instagram account then you need to perform certatin steps as mentioned-below.
+> Currently the client registered on Instagram Developer portal is in Sandbox mode, so if you want to Authenticate using your Instagram account then you need to perform certain steps as mentioned below.
 
 ###### Steps to Register a New Client On Instagram Developer Portal
 
 - Go to [Instagram Developer](https://www.instagram.com/developer/)
 - Login with your Instagram account credential details
-- Click on **Register a New Client**
+- Click on the **Register a New Client**
 - Submit required details
 - It will provide details such as **Client ID**, **Client Secret**(Refer below screenshot)
 
@@ -56,7 +58,7 @@
 ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/create_client.png)
 
 
-- **_Important_**: In Security tab you need to specify Redirect URI, which should be exactly similar which you are going to write in your code and uncheck **Disable implicit OAuth:** checkmark
+- **_Important_**: In Security tab, you need to specify Redirect URI, which should be exactly similar which you are going to write in your code and uncheck **Disable implicit OAuth:** checkmark
 - Click on **Update Client**(Refer below screenshot)
 
 
@@ -94,7 +96,7 @@ This application has used other third party libraries available on GitHub as men
 - [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
 - [ReachabilitySwift](https://github.com/ashleymills/Reachability.swift)
 - [SDWebImage](https://github.com/rs/SDWebImage)
-- [FBLikeLayout](https://github.com/gringoireDM/FBLikeLayout)
+- [DisplaySwitcher](https://github.com/Yalantis/DisplaySwitcher)
 - [CollieGallery](https://github.com/gmunhoz/CollieGallery)
 - [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD)
 - [SideMenu](https://github.com/jonkykong/SideMenu)
@@ -116,6 +118,7 @@ This application has used other third party libraries available on GitHub as men
 - Checked Internet Connectivity
 - Managed caching of images for smooth user experience
 - Tried to follow double optional(??) instead of compulsory(!) pattern as and when possible to avoid unnecessary crashes
+- The project contains Code Documentation same as Apple Documentation
 
 ## How to Contribute?
 
