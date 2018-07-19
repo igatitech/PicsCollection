@@ -29,7 +29,7 @@
 
 |Portrait (iPhone 6)|Landscape (iPhone 6)|
 |:---:|:---:|
-|![iPhoneP.gif](/Github_data/iPhoneP.gif)|![iPhoneL.gif](/Github_data/iPhoneL.gif)|
+|![iphonep](https://user-images.githubusercontent.com/37062945/42922994-e8e2787e-8b40-11e8-9b80-18f732a48a5f.gif))|![iPhoneL.gif](/Github_data/iPhoneL.gif)|
 
 |Portrait (iPad Air)|Landscape (iPad Air)|
 |:---:|:---:|
