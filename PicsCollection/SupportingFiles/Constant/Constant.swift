@@ -15,6 +15,12 @@ var isLogout = false
 
 struct StringConstant {
     static let noData = "No Data Available!"
+    static let picCollection = "Pics Collection"
+    static let appTour = "App Tour"
+    static let instagram = "Instagram"
+    static let chooseLangauge = "Choose Language"
+    static let likes = "likes"
+    static let comments = "comments"
 }
 //MARK:- Intro Screen String Constants
 struct StringIntro {
@@ -30,8 +36,9 @@ struct StringImages {
     static let imgIntro = "picsgif"
     static let imgExt = "gif"
     static let imgPlaceholder = "placeholder"
-    static let imgLogout = "logout"
     static let imgAppTour = "apptour"
+    static let imgLanguage = "chooselang"
+    static let imgLogout = "logout"
 }
 
 struct StringVideo {
@@ -39,8 +46,9 @@ struct StringVideo {
     static let vdExt = "mp4"
 }
 struct StringSideMenu {
-    static let logout = "Logout"
     static let appTour = "App Tour"
+    static let chooseLang = "Choose Language"
+    static let logout = "Logout"
 }
 
 struct InstagramIDs {
@@ -67,6 +75,7 @@ enum ControllerIdentifier : String {
     case WebView = "WebViewVC"
     case Home = "HomeVC"
     case AppTour = "AppTourVC"
+    case ChooseLanguage = "ChooseLanguageVC"
 }
 
 //MARK:- CellIdentifier

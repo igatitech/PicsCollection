@@ -1,0 +1,15 @@
+
+/* Class = "UITabBarItem"; title = "Categories"; ObjectID = "OOF-df-64u"; */
+"OOF-df-64u.title" = "Categories";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "agq-4B-N3h"; */
+"agq-4B-N3h.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dZR-eq-RBk"; */
+"dZR-eq-RBk.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Pics Collection"; ObjectID = "f0d-sl-ngM"; */
+"f0d-sl-ngM.text" = "Pics Collection";
+
+/* Class = "UILabel"; text = "App Tour"; ObjectID = "m1r-vO-5rN"; */
+"m1r-vO-5rN.text" = "App Tour";

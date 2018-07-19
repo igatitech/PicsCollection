@@ -21,6 +21,7 @@ import SVProgressHUD
 class WebViewVC: UIViewController {
 
     //MARK:- IBOutlets
+    @IBOutlet weak var labelTitle : UILabel!
     @IBOutlet weak var webViewLogin : WKWebView!
     
     // MARK: - Types
@@ -33,8 +34,11 @@ class WebViewVC: UIViewController {
     //MARK:- View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        setUpView()
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        setUpView()
     }
 
     override func didReceiveMemoryWarning() {
@@ -45,7 +49,7 @@ class WebViewVC: UIViewController {
     //MARK:- IBActions
     
     /**
-     This click_Back will call when user clicks on back button.
+     This click_Back will be called when user clicks on back button.
      It will redirect user to previous screen
      
      - Parameter sender: a reference to the button that has been touched
@@ -65,10 +69,16 @@ class WebViewVC: UIViewController {
      */
     func setUpView() {
         
+        //...Language localisation
+        labelTitle.text = StringConstant.instagram.localized()
+        
+        //...Clear Cache
         if getStringFromDefaults(key: .userAuthToken) == nil {
             clearCache()
         }
         webViewLogin.navigationDelegate = self
+        
+        //...User Authentication
         unSignedRequest()
     }
     
@@ -173,7 +183,7 @@ extension WebViewVC: WKNavigationDelegate {
         case 400:
             SVProgressHUD.dismiss()
             decisionHandler(.cancel)
-            self.showAlert(strTitle: alerts.error, strMsg: alerts.somethingWrong)
+            self.showAlert(strTitle: alerts.error.localized(), strMsg: alerts.somethingWrong.localized())
         default:
             decisionHandler(.allow)
         }

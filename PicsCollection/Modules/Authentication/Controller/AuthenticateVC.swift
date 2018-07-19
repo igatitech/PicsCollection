@@ -25,15 +25,14 @@ class AuthenticateVC: UIViewController {
     @IBOutlet weak var buttonInsta : UIButton!
     
     //MARK:- Properties
-    let arrTitles = [StringIntro.title1, StringIntro.title2, StringIntro.title3]
-    let arrDesc = [StringIntro.desc1, StringIntro.desc2, StringIntro.desc3]
+    let arrTitles = [StringIntro.title1.localized(), StringIntro.title2.localized(), StringIntro.title3.localized()]
+    let arrDesc = [StringIntro.desc1.localized(), StringIntro.desc2.localized(), StringIntro.desc3.localized()]
     var timerIntro : Timer?
     
     //MARK:- View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        setUpView()
     }
 
     override func didReceiveMemoryWarning() {
@@ -42,11 +41,13 @@ class AuthenticateVC: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
+
+        setUpView()
         
         //...Intro screen setup
         loadIntroScreens()
         
-        //...Add orientation observer
+        //...Orientation observer
         NotificationCenter.default.addObserver(self, selector: #selector(rotated), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
         
         //...Start Timer
@@ -95,6 +96,9 @@ class AuthenticateVC: UIViewController {
      - Returns: nil
      */
     func setUpView() {
+        
+        //...Language localisation
+        buttonInsta.setTitle(StringConstant.instagram.localized(), for: .normal)
         
         //...Load Gif
         let imageData = try? Data(contentsOf: Bundle.main.url(forResource: StringImages.imgIntro, withExtension: StringImages.imgExt)!)

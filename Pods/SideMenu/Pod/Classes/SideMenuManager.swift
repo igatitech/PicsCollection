@@ -73,7 +73,7 @@ open class SideMenuManager : NSObject {
      
      Note that each menu's width can be overridden using the `menuWidth` property on any `UISideMenuNavigationController` instance.
      */
-    open var menuWidth: CGFloat = min(round(min((appScreenRect.width), (appScreenRect.height)) * 0.75), 240)
+    open var menuWidth: CGFloat = max(round(min((appScreenRect.width), (appScreenRect.height)) * 0.80), 240)
     
     /// Duration of the animation when the menu is presented without gestures. Default is 0.35 seconds.
     open var menuAnimationPresentDuration: Double = 0.35

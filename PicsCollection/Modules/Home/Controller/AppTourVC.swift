@@ -19,12 +19,20 @@ import AVKit
 
 class AppTourVC: UIViewController {
 
+    //MARK:- IBOutlets
+    @IBOutlet weak var labelTitle : UILabel!
+    
     //MARK:- View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        //...Language localisation
+        labelTitle.text = StringConstant.appTour.localized()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -33,7 +41,7 @@ class AppTourVC: UIViewController {
     //MARK:- IBActions
     
     /**
-     This click_Back will call when user clicks on back button.
+     This click_Back will be called when user clicks on back button.
      It will redirect user to previous screen
      
      - Parameter sender: a reference to the button that has been touched

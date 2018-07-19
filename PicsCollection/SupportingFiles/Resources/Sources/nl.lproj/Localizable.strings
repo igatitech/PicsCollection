@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  PicsCollection
+
+  Created by Gati Shah on 7/19/18.
+  Copyright © 2018 Gati Shah. All rights reserved.
+*/
+"Pics Collection" = "Afbeeldingen Collectie";
+"App Tour" = "App Tour";
+"Instagram" = "Instagram";
+"Choose Language" = "Kies een taal";
+"likes" = "sympathieën";
+"comments" = "opmerkingen";
+"Welcome to Pics Collection" = "Welcome to Pics Collection";
+"Amazing Features" = "Welkom bij Pics Collection";
+"Every Little Help!" = "Elke kleine hulp!";
+"Pics Collection : See More, Do More!" = "Pics-collectie: meer bekijken, meer doen!
+";
+"There are everything, Instagram can do! For something else, there's Pics Collection" = "Er is alles, Instagram kan doen! Voor iets anders is er Pics Collection";
+"\"View | Stretch | Share\"" = "\"Bekijken | Stretch | Delen\"";
+"Logout" = "Uitloggen";
+"Are you sure, you want to logout?" = "Weet je zeker dat je wilt uitloggen?";
+"OK" = "OK";
+"DELETE" = "DELETE";
+"CANCEL" = "ANNULEER";
+"YES" = "JA";
+"NO" = "NEE";
+"Error" = "Fout";
+"Network Error" = "Netwerkfout";
+"Coming Soon!" = "Binnenkort beschikbaar!";
+"Internet is not available. Please try again." = "Internet is niet beschikbaar. Probeer het opnieuw.";
+"Something went wrong! Please try again later" = "Er is iets fout gegaan! Probeer het later opnieuw";
+"No Data Available!" = "Geen gegevens beschikbaar!";

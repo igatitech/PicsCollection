@@ -76,8 +76,8 @@ class NetworkManager{
                                 
                             default:
                             
-                                let alertError = UIAlertController.init(title: alerts.error, message: alerts.somethingWrong, preferredStyle: .alert)
-                                let actionOk = UIAlertAction.init(title: alerts.OK, style: .default, handler: { (action) in
+                                let alertError = UIAlertController.init(title: alerts.error.localized(), message: alerts.somethingWrong.localized(), preferredStyle: .alert)
+                                let actionOk = UIAlertAction.init(title: alerts.OK.localized(), style: .default, handler: { (action) in
                                    
                                     resetDefaults()
                                     viewController.navigationController?.popToRootViewController(animated: true)
@@ -95,7 +95,7 @@ class NetworkManager{
             }
         }else{
             //display no internet available message
-            viewController.showAlert(strTitle: alerts.networkError, strMsg: alerts.noInternetMsg)
+            viewController.showAlert(strTitle: alerts.networkError.localized(), strMsg: alerts.noInternetMsg.localized())
         }
     }    
 }

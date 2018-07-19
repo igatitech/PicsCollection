@@ -2,8 +2,8 @@
 //  UserCollectionViewCell.swift
 //  YALLayoutTransitioning
 //
-//  Created by Roman on 23.02.16.
-//  Copyright © 2016 Yalantis. All rights reserved.
+//  Created by Gati Shah on 7/18/18.
+//  Copyright © 2018 Gati Shah. All rights reserved.
 //
 
 import UIKit
@@ -11,6 +11,14 @@ import DisplaySwitcher
 import SDWebImage
 
 private let avatarListLayoutSize: CGFloat = 80.0
+
+/**
+ The purpose of 'UserCollectionViewCell' collectionview cell is to configure collection cell.
+ 
+ There's matching scene in the *UserCollectionViewCell.xib* file. Go to Interface Builder for details.
+ 
+ The 'UserCollectionViewCell' class is a subclass of the 'UICollectionViewCell'.
+ */
 
 class UserCollectionViewCell: UICollectionViewCell, CellInterface {
     
@@ -55,10 +63,10 @@ class UserCollectionViewCell: UICollectionViewCell, CellInterface {
     func setData() {
         let url = URL(string: pictureData?[index].images?.low_resolution?.url ?? "")
         avatarImageView.sd_setImage(with: url, placeholderImage: UIImage(named: StringImages.imgPlaceholder))
-        nameListLabel.text = pictureData?[index].user?.full_name
+        nameListLabel.text = pictureData?[index].user?.username
         nameGridLabel.text = pictureData?[index].user?.full_name
-        let userPostsString = ("\(pictureData?[index].likes?.count ?? 0)" + " likes • ")
-        let userCommentsString = ("\(pictureData?[index].comments?.count ?? 0)" + " comments")
+        let userPostsString = ("\(pictureData?[index].likes?.count ?? 0)" + " \(StringConstant.likes.localized()) • ")
+        let userCommentsString = ("\(pictureData?[index].comments?.count ?? 0)" + " \(StringConstant.comments.localized())")
         statisticLabel.text = userPostsString + userCommentsString
     }
     

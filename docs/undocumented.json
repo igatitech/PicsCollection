@@ -135,28 +135,28 @@
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Authentication/Controller/AuthenticateVC.swift",
-      "line": 39,
+      "line": 38,
       "symbol": "AuthenticateVC.didReceiveMemoryWarning()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Authentication/Controller/AuthenticateVC.swift",
-      "line": 44,
+      "line": 43,
       "symbol": "AuthenticateVC.viewWillAppear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Authentication/Controller/AuthenticateVC.swift",
-      "line": 56,
+      "line": 57,
       "symbol": "AuthenticateVC.viewDidDisappear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Authentication/Controller/AuthenticateVC.swift",
-      "line": 219,
+      "line": 223,
       "symbol": "AuthenticateVC.scrollViewDidScroll(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -164,27 +164,34 @@
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Authentication/Controller/WebViewVC.swift",
       "line": 24,
+      "symbol": "WebViewVC.labelTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Authentication/Controller/WebViewVC.swift",
+      "line": 25,
       "symbol": "WebViewVC.webViewLogin",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Authentication/Controller/WebViewVC.swift",
-      "line": 27,
+      "line": 28,
       "symbol": "WebViewVC.SuccessHandler",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Authentication/Controller/WebViewVC.swift",
-      "line": 31,
+      "line": 32,
       "symbol": "WebViewVC.urlRequest",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Authentication/Controller/WebViewVC.swift",
-      "line": 34,
+      "line": 35,
       "symbol": "WebViewVC.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -192,27 +199,34 @@
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Authentication/Controller/WebViewVC.swift",
       "line": 40,
+      "symbol": "WebViewVC.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Authentication/Controller/WebViewVC.swift",
+      "line": 44,
       "symbol": "WebViewVC.didReceiveMemoryWarning()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Authentication/Controller/WebViewVC.swift",
-      "line": 138,
+      "line": 148,
       "symbol": "WebViewVC.webView(_:didFinish:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Authentication/Controller/WebViewVC.swift",
-      "line": 142,
+      "line": 152,
       "symbol": "WebViewVC.webView(_:decidePolicyFor:decisionHandler:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Authentication/Controller/WebViewVC.swift",
-      "line": 163,
+      "line": 173,
       "symbol": "WebViewVC.webView(_:decidePolicyFor:decisionHandler:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -220,153 +234,265 @@
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/AppTourVC.swift",
       "line": 23,
+      "symbol": "AppTourVC.labelTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/AppTourVC.swift",
+      "line": 26,
       "symbol": "AppTourVC.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/AppTourVC.swift",
-      "line": 28,
+      "line": 31,
+      "symbol": "AppTourVC.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/AppTourVC.swift",
+      "line": 36,
       "symbol": "AppTourVC.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/ChooseLanguageVC.swift",
+      "line": 22,
+      "symbol": "ChooseLanguageVC.labelTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/ChooseLanguageVC.swift",
+      "line": 23,
+      "symbol": "ChooseLanguageVC.tableLanguage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/ChooseLanguageVC.swift",
+      "line": 24,
+      "symbol": "ChooseLanguageVC.buttonReset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/ChooseLanguageVC.swift",
+      "line": 27,
+      "symbol": "ChooseLanguageVC.actionSheet",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/ChooseLanguageVC.swift",
+      "line": 28,
+      "symbol": "ChooseLanguageVC.availableLanguages",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/ChooseLanguageVC.swift",
+      "line": 31,
+      "symbol": "ChooseLanguageVC.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/ChooseLanguageVC.swift",
+      "line": 37,
+      "symbol": "ChooseLanguageVC.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/ChooseLanguageVC.swift",
+      "line": 41,
+      "symbol": "ChooseLanguageVC.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/ChooseLanguageVC.swift",
+      "line": 49,
+      "symbol": "ChooseLanguageVC.viewWillDisappear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/ChooseLanguageVC.swift",
+      "line": 97,
+      "symbol": "ChooseLanguageVC.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/ChooseLanguageVC.swift",
+      "line": 101,
+      "symbol": "ChooseLanguageVC.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/ChooseLanguageVC.swift",
+      "line": 119,
+      "symbol": "ChooseLanguageVC.tableView(_:didSelectRowAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
       "line": 31,
+      "symbol": "HomeVC.labelTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
+      "line": 32,
       "symbol": "HomeVC.collectionPics",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
-      "line": 36,
+      "line": 37,
       "symbol": "HomeVC.mainData",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
-      "line": 37,
+      "line": 38,
       "symbol": "HomeVC.pictureData",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
-      "line": 38,
+      "line": 39,
       "symbol": "HomeVC.refresher",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
-      "line": 39,
+      "line": 40,
       "symbol": "HomeVC.isTransitionAvailable",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
-      "line": 40,
+      "line": 41,
       "symbol": "HomeVC.listLayout",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
-      "line": 41,
+      "line": 42,
       "symbol": "HomeVC.gridLayout",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
-      "line": 42,
+      "line": 43,
       "symbol": "HomeVC.layoutState",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
-      "line": 45,
+      "line": 44,
+      "symbol": "HomeVC.isSideMenuTapped",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
+      "line": 47,
       "symbol": "HomeVC.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
-      "line": 51,
+      "line": 53,
       "symbol": "HomeVC.didReceiveMemoryWarning()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
-      "line": 56,
+      "line": 58,
       "symbol": "HomeVC.viewWillAppear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
-      "line": 68,
+      "line": 77,
       "symbol": "HomeVC.viewDidDisappear(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
-      "line": 73,
+      "line": 82,
       "symbol": "HomeVC.viewDidLayoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
-      "line": 281,
+      "line": 292,
       "symbol": "HomeVC.collectionView(_:numberOfItemsInSection:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
-      "line": 290,
+      "line": 301,
       "symbol": "HomeVC.collectionView(_:cellForItemAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
-      "line": 311,
+      "line": 322,
       "symbol": "HomeVC.collectionView(_:didSelectItemAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
-      "line": 315,
+      "line": 326,
       "symbol": "HomeVC.collectionView(_:transitionLayoutForOldLayout:newLayout:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
-      "line": 320,
+      "line": 331,
       "symbol": "HomeVC.scrollViewWillBeginDragging(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
-      "line": 324,
+      "line": 335,
       "symbol": "HomeVC.scrollViewDidEndDragging(_:willDecelerate:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/Controller/HomeVC.swift",
-      "line": 328,
+      "line": 339,
       "symbol": "HomeVC.scrollViewDidScroll(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -1052,119 +1178,112 @@
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/View/UserCollectionViewCell.swift",
-      "line": 15,
-      "symbol": "UserCollectionViewCell",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/View/UserCollectionViewCell.swift",
-      "line": 17,
+      "line": 25,
       "symbol": "UserCollectionViewCell.avatarImageView",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/View/UserCollectionViewCell.swift",
-      "line": 18,
+      "line": 26,
       "symbol": "UserCollectionViewCell.backgroundGradientView",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/View/UserCollectionViewCell.swift",
-      "line": 19,
+      "line": 27,
       "symbol": "UserCollectionViewCell.nameListLabel",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/View/UserCollectionViewCell.swift",
-      "line": 20,
+      "line": 28,
       "symbol": "UserCollectionViewCell.nameGridLabel",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/View/UserCollectionViewCell.swift",
-      "line": 21,
+      "line": 29,
       "symbol": "UserCollectionViewCell.statisticLabel",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/View/UserCollectionViewCell.swift",
-      "line": 24,
+      "line": 32,
       "symbol": "UserCollectionViewCell.avatarImageViewWidthConstraint",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/View/UserCollectionViewCell.swift",
-      "line": 25,
+      "line": 33,
       "symbol": "UserCollectionViewCell.avatarImageViewHeightConstraint",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/View/UserCollectionViewCell.swift",
-      "line": 28,
+      "line": 36,
       "symbol": "UserCollectionViewCell.nameListLabelLeadingConstraint",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/View/UserCollectionViewCell.swift",
-      "line": 35,
+      "line": 43,
       "symbol": "UserCollectionViewCell.statisticLabelLeadingConstraint",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/View/UserCollectionViewCell.swift",
-      "line": 37,
+      "line": 45,
       "symbol": "UserCollectionViewCell.avatarGridLayoutSize",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/View/UserCollectionViewCell.swift",
-      "line": 38,
+      "line": 46,
       "symbol": "UserCollectionViewCell.initialLabelsLeadingConstraintValue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/View/UserCollectionViewCell.swift",
-      "line": 39,
+      "line": 47,
       "symbol": "UserCollectionViewCell.pictureData",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/View/UserCollectionViewCell.swift",
-      "line": 44,
+      "line": 52,
       "symbol": "UserCollectionViewCell.index",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/View/UserCollectionViewCell.swift",
-      "line": 67,
+      "line": 75,
       "symbol": "UserCollectionViewCell.setupGridLayoutConstraints(_:cellWidth:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/View/UserCollectionViewCell.swift",
-      "line": 77,
+      "line": 85,
       "symbol": "UserCollectionViewCell.setupListLayoutConstraints(_:cellWidth:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/Modules/Home/View/UserCollectionViewCell.swift",
-      "line": 87,
+      "line": 95,
       "symbol": "UserCollectionViewCell.apply(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -1192,546 +1311,609 @@
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
+      "line": 18,
+      "symbol": "StringConstant.picCollection",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
+      "line": 19,
+      "symbol": "StringConstant.appTour",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 20,
-      "symbol": "StringIntro",
-      "symbol_kind": "source.lang.swift.decl.struct",
+      "symbol": "StringConstant.instagram",
+      "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 21,
-      "symbol": "StringIntro.title1",
+      "symbol": "StringConstant.chooseLangauge",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 22,
-      "symbol": "StringIntro.title2",
+      "symbol": "StringConstant.likes",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 23,
-      "symbol": "StringIntro.title3",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 24,
-      "symbol": "StringIntro.desc1",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 25,
-      "symbol": "StringIntro.desc2",
+      "symbol": "StringConstant.comments",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 26,
-      "symbol": "StringIntro.desc3",
+      "symbol": "StringIntro",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
+      "line": 27,
+      "symbol": "StringIntro.title1",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
+      "line": 28,
+      "symbol": "StringIntro.title2",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 29,
-      "symbol": "StringImages",
-      "symbol_kind": "source.lang.swift.decl.struct",
+      "symbol": "StringIntro.title3",
+      "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 30,
-      "symbol": "StringImages.imgIntro",
+      "symbol": "StringIntro.desc1",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 31,
-      "symbol": "StringImages.imgExt",
+      "symbol": "StringIntro.desc2",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 32,
-      "symbol": "StringImages.imgPlaceholder",
+      "symbol": "StringIntro.desc3",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 33,
-      "symbol": "StringImages.imgLogout",
-      "symbol_kind": "source.lang.swift.decl.var.static",
+      "line": 35,
+      "symbol": "StringImages",
+      "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 34,
-      "symbol": "StringImages.imgAppTour",
+      "line": 36,
+      "symbol": "StringImages.imgIntro",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 37,
-      "symbol": "StringVideo",
-      "symbol_kind": "source.lang.swift.decl.struct",
+      "symbol": "StringImages.imgExt",
+      "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 38,
-      "symbol": "StringVideo.vdApp",
+      "symbol": "StringImages.imgPlaceholder",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 39,
-      "symbol": "StringVideo.vdExt",
+      "symbol": "StringImages.imgAppTour",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
+      "line": 40,
+      "symbol": "StringImages.imgLanguage",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 41,
-      "symbol": "StringSideMenu",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 42,
-      "symbol": "StringSideMenu.logout",
+      "symbol": "StringImages.imgLogout",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 43,
-      "symbol": "StringSideMenu.appTour",
+      "line": 44,
+      "symbol": "StringVideo",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
+      "line": 45,
+      "symbol": "StringVideo.vdApp",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 46,
-      "symbol": "InstagramIDs",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 47,
-      "symbol": "InstagramIDs.kInstaAuthURL",
+      "symbol": "StringVideo.vdExt",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 48,
-      "symbol": "InstagramIDs.kInstaApiURL",
-      "symbol_kind": "source.lang.swift.decl.var.static",
+      "symbol": "StringSideMenu",
+      "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 49,
-      "symbol": "InstagramIDs.kInstaClientID",
+      "symbol": "StringSideMenu.appTour",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 50,
-      "symbol": "InstagramIDs.kInstaClientSecret",
+      "symbol": "StringSideMenu.chooseLang",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 51,
-      "symbol": "InstagramIDs.kInstaRedirectURI",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 52,
-      "symbol": "InstagramIDs.kInstaAccessToken",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 53,
-      "symbol": "InstagramIDs.kInstaScope",
+      "symbol": "StringSideMenu.logout",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 54,
-      "symbol": "InstagramIDs.kInstaRange",
-      "symbol_kind": "source.lang.swift.decl.var.static",
+      "symbol": "InstagramIDs",
+      "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 55,
-      "symbol": "InstagramIDs.kInstaDenied",
+      "symbol": "InstagramIDs.kInstaAuthURL",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
+      "line": 56,
+      "symbol": "InstagramIDs.kInstaApiURL",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
+      "line": 57,
+      "symbol": "InstagramIDs.kInstaClientID",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
+      "line": 58,
+      "symbol": "InstagramIDs.kInstaClientSecret",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
       "line": 59,
+      "symbol": "InstagramIDs.kInstaRedirectURI",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
+      "line": 60,
+      "symbol": "InstagramIDs.kInstaAccessToken",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
+      "line": 61,
+      "symbol": "InstagramIDs.kInstaScope",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
+      "line": 62,
+      "symbol": "InstagramIDs.kInstaRange",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
+      "line": 63,
+      "symbol": "InstagramIDs.kInstaDenied",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
+      "line": 67,
       "symbol": "Storyboards",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 60,
+      "line": 68,
       "symbol": "Storyboards.Authenticate",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 61,
+      "line": 69,
       "symbol": "Storyboards.Home",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 65,
+      "line": 73,
       "symbol": "ControllerIdentifier",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 66,
+      "line": 74,
       "symbol": "ControllerIdentifier.Authenticate",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 67,
+      "line": 75,
       "symbol": "ControllerIdentifier.WebView",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 68,
+      "line": 76,
       "symbol": "ControllerIdentifier.Home",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 69,
+      "line": 77,
       "symbol": "ControllerIdentifier.AppTour",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 73,
+      "line": 78,
+      "symbol": "ControllerIdentifier.ChooseLanguage",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
+      "line": 82,
       "symbol": "CellIdentifier",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 74,
+      "line": 83,
       "symbol": "CellIdentifier.ImageCollection",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 75,
+      "line": 84,
       "symbol": "CellIdentifier.SideMenu",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 79,
+      "line": 88,
       "symbol": "ViewIdentifier",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 80,
+      "line": 89,
       "symbol": "ViewIdentifier.SideMenuHeader",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 84,
+      "line": 93,
       "symbol": "NavigationControllerIdentifier",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 85,
+      "line": 94,
       "symbol": "NavigationControllerIdentifier.AuthNavigationController",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 86,
+      "line": 95,
       "symbol": "NavigationControllerIdentifier.SideMenuNavigationController",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 90,
+      "line": 99,
       "symbol": "FontSize",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 91,
+      "line": 100,
       "symbol": "FontSize.Big",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 92,
+      "line": 101,
       "symbol": "FontSize.BelowBig",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 93,
+      "line": 102,
       "symbol": "FontSize.ExtraLarge",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 94,
+      "line": 103,
       "symbol": "FontSize.Large",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 95,
+      "line": 104,
       "symbol": "FontSize.Medium",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 96,
+      "line": 105,
       "symbol": "FontSize.Regular",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 97,
+      "line": 106,
       "symbol": "FontSize.Small",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 98,
+      "line": 107,
       "symbol": "FontSize.ExtraSmall",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 102,
+      "line": 111,
       "symbol": "AppFont",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 103,
+      "line": 112,
       "symbol": "AppFont.Bold",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 104,
+      "line": 113,
       "symbol": "AppFont.BoldItalic",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 105,
+      "line": 114,
       "symbol": "AppFont.ExtraBlack",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 106,
+      "line": 115,
       "symbol": "AppFont.Italic",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 107,
+      "line": 116,
       "symbol": "AppFont.Regular",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 111,
+      "line": 120,
       "symbol": "CacheKeys",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 112,
+      "line": 121,
       "symbol": "CacheKeys.userAuthToken",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 113,
+      "line": 122,
       "symbol": "CacheKeys.userName",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 114,
+      "line": 123,
       "symbol": "CacheKeys.fullname",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 115,
+      "line": 124,
       "symbol": "CacheKeys.profilePicture",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 119,
+      "line": 128,
       "symbol": "alerts",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 120,
+      "line": 129,
       "symbol": "alerts.title",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 121,
+      "line": 130,
       "symbol": "alerts.logout",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 122,
+      "line": 131,
       "symbol": "alerts.OK",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 123,
+      "line": 132,
       "symbol": "alerts.delete",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 124,
+      "line": 133,
       "symbol": "alerts.cancel",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 125,
+      "line": 134,
       "symbol": "alerts.yes",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 126,
+      "line": 135,
       "symbol": "alerts.no",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 127,
+      "line": 136,
       "symbol": "alerts.error",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 128,
+      "line": 137,
       "symbol": "alerts.networkError",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 129,
+      "line": 138,
       "symbol": "alerts.comingSoon",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 130,
+      "line": 139,
       "symbol": "alerts.noInternetMsg",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Constant/Constant.swift",
-      "line": 131,
+      "line": 140,
       "symbol": "alerts.somethingWrong",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
@@ -1824,6 +2006,13 @@
       "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Global/NetworkManager.swift",
       "line": 39,
       "symbol": "NetworkManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jatindave/Documents/Gati Shah/Checkout/PicsCollection/PicsCollection/SupportingFiles/Resources/Sources/Localize.swift",
+      "line": 89,
+      "symbol": "Localize",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     }

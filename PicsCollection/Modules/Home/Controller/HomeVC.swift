@@ -28,6 +28,7 @@ private let gridLayoutStaticCellHeight: CGFloat = 150
 class HomeVC: UIViewController {
 
     //MARK:- IBOutlets
+    @IBOutlet weak var labelTitle : UILabel!
     @IBOutlet weak var collectionPics : UICollectionView!
     @IBOutlet fileprivate weak var buttonRotation: SwitchLayoutButton!
     
@@ -40,6 +41,7 @@ class HomeVC: UIViewController {
     var listLayout = DisplaySwitchLayout(staticCellHeight: listLayoutStaticCellHeight, nextLayoutStaticCellHeight: gridLayoutStaticCellHeight, layoutState: .list)
     var gridLayout = DisplaySwitchLayout(staticCellHeight: gridLayoutStaticCellHeight, nextLayoutStaticCellHeight: listLayoutStaticCellHeight, layoutState: .grid)
     var layoutState: LayoutState = .list
+    var isSideMenuTapped = false
     
     //MARK:- View Life Cycle
     override func viewDidLoad() {
@@ -54,6 +56,13 @@ class HomeVC: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        
+        //...Language localisation
+        labelTitle.text = StringConstant.picCollection.localized()
+        if !isSideMenuTapped {
+            loadCollectionWithAnimations()
+        }
+        isSideMenuTapped = false
         
         //...Add orientation observer
         NotificationCenter.default.addObserver(self, selector: #selector(rotated), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
@@ -84,6 +93,8 @@ class HomeVC: UIViewController {
      - Returns: nil
      */
     @IBAction func click_SideMenu(_ sender : Any) {
+        
+        isSideMenuTapped = true
         let VC1 = self.storyboard!.instantiateViewController(withIdentifier: NavigationControllerIdentifier.SideMenuNavigationController.rawValue) as! SideMenuNavigationController
         self.present(VC1, animated:true, completion: nil)
     }
@@ -280,7 +291,7 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollec
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if (pictureData?.count == 0) {
-            collectionPics.setEmptyMessage(StringConstant.noData)
+            collectionPics.setEmptyMessage(StringConstant.noData.localized())
         } else {
             collectionPics.restore()
         }

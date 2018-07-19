@@ -55,8 +55,8 @@ class SideMenu : UIViewController{
         self.tableSideMenu.register(nib, forCellReuseIdentifier: CellIdentifier.SideMenu)
         self.tableSideMenu.reloadData()
         
-        arrCategories = [StringSideMenu.appTour, StringSideMenu.logout]
-        arrCategoryIcons = [StringImages.imgAppTour, StringImages.imgLogout]
+        arrCategories = [StringSideMenu.appTour.localized(), StringSideMenu.chooseLang.localized(), StringSideMenu.logout.localized()]
+        arrCategoryIcons = [StringImages.imgAppTour, StringImages.imgLanguage, StringImages.imgLogout]
     }
     
     //MARK:- API Call
@@ -65,8 +65,8 @@ class SideMenu : UIViewController{
      logoutAPICall function is used to perform logout from the application.
     */
     func logoutAPICall() {
-        let alertLogout = UIAlertController.init(title: alerts.title, message: alerts.logout, preferredStyle: .alert)
-        let actionYes = UIAlertAction.init(title: alerts.yes, style: .destructive, handler: { (action) in
+        let alertLogout = UIAlertController.init(title: alerts.title.localized(), message: alerts.logout.localized(), preferredStyle: .alert)
+        let actionYes = UIAlertAction.init(title: alerts.yes.localized(), style: .destructive, handler: { (action) in
             NetworkManager.request(viewController: self, showloader: true, url: .Logout, method: .post, parameters: ["":""], success: { (response) in
                 isLogout = true
                 resetDefaults()
@@ -74,7 +74,7 @@ class SideMenu : UIViewController{
             }, failure: {_ in 
             })
         })
-        let actionNo = UIAlertAction.init(title: alerts.no, style: .default, handler: nil)
+        let actionNo = UIAlertAction.init(title: alerts.no.localized(), style: .default, handler: nil)
         alertLogout.addAction(actionYes)
         alertLogout.addAction(actionNo)
         self.present(alertLogout, animated: true, completion: nil)
@@ -132,6 +132,11 @@ extension SideMenu : UITableViewDataSource,UITableViewDelegate{
             }
             self.navigationController?.pushViewController(objAppTour, animated: true)
             break
+        case 1:
+            guard let objChooseLang = GetViewController(StoryBoard: .Home, Identifier: .ChooseLanguage) else {
+                return
+            }
+            self.navigationController?.pushViewController(objChooseLang, animated: true)
         default:
             //...Logout from here
             logoutAPICall()

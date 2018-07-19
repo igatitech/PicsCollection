@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  PicsCollection
+
+  Created by Gati Shah on 7/19/18.
+  Copyright © 2018 Gati Shah. All rights reserved.
+*/
+"Pics Collection" = "Collection de photos";
+"App Tour" = "App Tour";
+"Instagram" = "Instagram";
+"Choose Language" = "Choisissez la langue";
+"likes" = "aime";
+"comments" = "commentaires";
+"Welcome to Pics Collection" = "Bienvenue à la Collection de Photos";
+"Amazing Features" = "Caractéristiques étonnantes";
+"Every Little Help!" = "Chaque petite aide!";
+"Pics Collection : See More, Do More!" = "Collection de photos: voir plus, en faire plus!";
+"There are everything, Instagram can do! For something else, there's Pics Collection" = "Il y a tout, Instagram peut le faire! Pour autre chose, il y a la collection de photos";
+"\"View | Stretch | Share\"" = "\"Voir | Stretch | Partager\"";
+"Logout" = "Connectez - Out";
+"Are you sure, you want to logout?" = "Êtes-vous sûr de vouloir vous déconnecter?";
+"OK" = "D'accord";
+"DELETE" = "EFFACER";
+"CANCEL" = "ANNULER";
+"YES" = "OUI";
+"NO" = "NON";
+"Error" = "Erreur";
+"Network Error" = "Erreur réseau";
+"Coming Soon!" = "Arrive bientôt!";
+"Internet is not available. Please try again." = "Internet n'est pas disponible. Veuillez réessayer.";
+"Something went wrong! Please try again later" = "Quelque chose s'est mal passé! Veuillez réessayer plus tard";
+"No Data Available!" = "Pas de données disponibles!";
