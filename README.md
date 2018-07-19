@@ -7,6 +7,7 @@
 - One time login
 - Pull down to reload the image list with animation
 - Display image list with animation
+- Multiple Language Support(English | French | Danish | German | Dutch)
 - Switch between list view and grid view of images with animation
 - Double tap to zoom
 - Zoom In/Out with animations
@@ -14,7 +15,7 @@
 - Image share option
 - Swipe left/right for next/previous photos
 - Swipe up/down to close the full-screen imageview
-- Supported Portrait and Landscape mode
+- Supported Portrait and Landscape orientations
 - Logout
 
 ## How to run the project?
@@ -35,15 +36,22 @@
 |:---:|:---:|
 |![iPadP.gif](/Github_data/iPadP.gif)|![iPadL.gif](/Github_data/iPadL.gif)|
 
+
 ## iPhone Portrait :
-![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/WelcomeiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/SideMenuiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPhoneP.png)
+![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPhonePWelcome.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPhonePSideMenu.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPhonePListView.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPhonePGridView.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPhonePChooseLang.png)
+
 
 ## iPhone Landscape:
-![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/WelcomeiPhoneL.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/SideMenuiPhoneL.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPhoneL.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPhoneL.png)
+![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPhoneLWelcome.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPhoneLSideMenu.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPhoneLListView.png)
 
 
-## iPad
-![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/SideMenuiPadP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPadL.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPadP.png)
+## iPad Portrait:
+![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPadPWelcome.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPadPSideMenu.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPadPListView.png)
+
+
+## iPad Landscape:
+
+![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPadLSideMenu.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPadLListView.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPadPListView.png)
 
 
 ## Instagram Authentication Details
