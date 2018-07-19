@@ -51,7 +51,7 @@
 
 ## iPad Landscape:
 
-![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPadLSideMenu.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPadLListView.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPadPListView.png)
+![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPadLSideMenu.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/iPadLListView.png)
 
 
 ## Instagram Authentication Details
