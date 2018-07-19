@@ -27,7 +27,15 @@
     
 ## Application Screenshots
 
-![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/WelcomiPhoneP.png) ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/SideMenuiPhoneP.png) ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/SideMenuiPadP.png) ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPhoneP.png) ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPhoneL.png) ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPadL.png) ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPhoneP.png) ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPhoneL.png) ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPadP.png)
+## iPhone Portrait :
+![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/WelcomiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/SideMenuiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPhoneP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPhoneP.png)
+
+## iPhone Landscape:
+![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPhoneL.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPhoneL.png)
+
+
+## iPad
+![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/SideMenuiPadP.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/ListViewiPadL.png)            ![alt text](https://github.com/igatsha/PicsCollection/blob/master/Github_data/GridViewiPadP.png)
 
 
 ## Instagram Authentication Details
