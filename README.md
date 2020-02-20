@@ -131,15 +131,21 @@ This application has used other third party libraries available on GitHub as men
 - Tried to follow double optional(??) instead of compulsory(!) pattern as and when possible to avoid unnecessary crashes
 - The project contains Code Documentation same as Apple Documentation
 
+**Happy Coding! Cheers!!** 🥂 
+
 ## How to Contribute?
 
 Have an idea? Found a bug? See [how to contribute](https://github.com/igatsha/PicsCollection/blob/master/Github_data/CONTRIBUTION.md). Every small or large contribution to this project is appreciated.
     
+## Author
+You can find more about me here : [Gati Shah](https://igati.tech)
+
+If you wish to contact me, 
+Email at: [connect@igati.tech](connect@igati.tech)
+
+Reach me on: [LinkedIn](https://www.linkedin.com/in/igatitech/)
+
 ## License
-Copyright 2018 Gati Shah
+Copyright 2020 iGatiTech
 
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+This project is distributed under the terms & conditions of [MIT License](https://github.com/igatitech/PicsCollection/blob/master/LICENSE).
