@@ -44,7 +44,7 @@ in your branch and the pull request will be updated automatically.
 ## How to setup the project?
 - Clone the repo to your local machine.
 ```
-git clone https://github.com/igatsha/PicsCollection.git
+git clone https://github.com/igatitech/PicsCollection.git
 ```
 
 Happy coding.:-)
